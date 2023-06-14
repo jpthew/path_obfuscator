@@ -1,4 +1,4 @@
-# path_obfuscator
+# Path Obfuscator (UNC Obfuscator)
 Obfuscates linux and windows UNCs
 
 I created this script to create user-obfuscated, but machine readable paths. It works on all OS that take wildcard characters in the UNC.
@@ -28,6 +28,6 @@ $ Obfuscated path: /h?me/jp/*?k*p
 ```
 
 Issues to fix:
-L: Path with single folder showing complete folder
-L: Windows paths tending to overobfuscate in extremely large folders (e.g. system32), machine unreadable.
-R: Foldername length overwriting
+(L:) Path with single folder showing complete folder
+(L:) Windows paths tending to overobfuscate in extremely large folders (e.g. system32), machine unreadable.
+(R:) Foldername length overwriting
