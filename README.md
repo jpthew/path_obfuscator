@@ -28,6 +28,6 @@ $ Obfuscated path: /h?me/jp/*?k*p
 ```
 
 Issues to fix:
-(L:) Path with single folder showing complete folder
-(L:) Windows paths tending to overobfuscate in extremely large folders (e.g. system32), machine unreadable.
-(R:) Foldername length overwriting
+* (L:) Path with single folder showing complete folder
+* (L:) Windows paths tending to overobfuscate in extremely large folders (e.g. system32), machine unreadable.
+* (R:) Foldername length overwriting
